@@ -1,0 +1,179 @@
+*
+{
+  margin: 0;
+}
+
+body
+{
+  overflow-x: hidden;
+}
+.header
+{
+  height:50px;
+  width: 100%;
+  background-image: url('img/top.png');
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blue
+{
+  height: 300px;
+  width: 100%;
+  background-color: #01669a;
+}
+
+/* glow text from code pen https://codepen.io/AllThingsSmitty/pen/VzXrgY */
+.glowy_text
+{
+  text-align: center;
+  padding-top: 5%;
+  font-size: 80px;
+  opacity: 0.8;
+  text-shadow:
+    0 0 900px #fff,
+    0 0 60px #fff,
+    0 0 60px #fff,
+    0 0 80px #0ff,
+    0 0 900px #0ff,
+    0 0 180px #0ff,
+    0 0 200px #0ff,
+    0 0 500px #0ff;
+    color: white;
+}
+
+
+.menubar
+{
+  width: 100%;
+  height: 70px;
+  background: linear-gradient(#37383e, rgba(55,56,62, 0.8));
+  box-shadow: 0px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menubar>table
+{
+  margin-left:auto;
+  margin-right:auto;
+  line-height: 2em;
+  width: 900px;
+  font-size: 2em;
+
+}
+td:hover{
+  color:white;
+  transition: color 2s;
+  cursor: pointer;
+}
+.small-blue
+{
+  height:8px;
+  width: 100%;
+  background-color: #00b7f1;
+}
+
+.sidebar
+{
+  background-color: #f1f1f1;
+  height: 500px;
+  width: 250px;
+  margin-top: 1%;
+  margin-left: 80%;
+}
+
+.main-text{
+  width: 98%;
+  height:auto;
+  padding: 2%;
+  /* background-color: #EDEDED; */
+}
+
+.small-box
+{
+  margin-top: 1%;
+  background-color: white;
+  border: 5px solid #f1f1f1;
+  width: 240px;
+  height: 150px;
+  margin-left: 80%;
+  background-image: url('img/museum.png');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fig
+{
+  background-image: url('img/mark.png');
+  height: 200px;
+  width: 200px;
+  float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.text1
+{
+  width: 50%;
+  height:200px;
+  margin-left:2%;
+  float: left;
+  background-color: black;
+}
+
+.text2
+{
+  margin-top: 4%;
+  /* float:none; */
+}
+.container{
+  width: auto;
+  height: auto;
+}
+.fig2
+{
+  background-image: url('img/tom.png');
+  margin-top: 1%;
+  margin-left: 105%;
+  float: none;
+}
+
+.fig3
+{
+  background-image: url('img/quote.png');
+  left: 0;
+  float: left;
+}
+
+.sidebar>p
+{
+  padding-top:20%;
+  font-size: 1.2em;
+  text-align: center;
+
+}
+.sidebar>p:hover
+{
+    opacity: 0.6;
+    color: blue;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+.sidebar>p:nth-last-child(1)
+{
+  color: green;
+  text-decoration: underline;
+}
+
+.menu2
+{
+  margin-top: 2%;
+  height: 50px;
+  background-image: url('img/top.png');
+}
+
+.menu2>table
+{
+  font-size: 1.5em;
+}
