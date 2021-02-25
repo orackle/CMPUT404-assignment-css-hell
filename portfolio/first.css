@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *
 {
   margin: 0;
+  font-family: Roboto, Times;
+}
+
+h2
+{
+  padding-bottom:1.5em;
 }
 
 body
@@ -95,7 +103,7 @@ td:hover{
   width: 240px;
   height: 150px;
   margin-left: 80%;
-  background-image: url('img/museum.png');
+  background-image: url('img/family.jpg');
   background-position: center right;
   background-size: cover;
   background-repeat: no-repeat;
@@ -117,12 +125,14 @@ td:hover{
   height:200px;
   margin-left:2%;
   float: left;
-  background-color: black;
+  /* background-color: black; */
 }
 
 .text2
 {
   margin-top: 4%;
+  width: 40%;
+
   /* float:none; */
 }
 .container{
@@ -132,9 +142,9 @@ td:hover{
 .fig2
 {
   background-image: url('img/tom.png');
-  margin-top: 1%;
-  margin-left: 105%;
-  float: none;
+  margin-top: -28%;
+  margin-left: 120%;
+  /* float: none; */
 }
 
 .fig3
@@ -171,6 +181,15 @@ td:hover{
   margin-top: 2%;
   height: 50px;
   background-image: url('img/top.png');
+}
+
+.text1:p
+{
+
+    font-family: Calibri;
+    line-height: 20px;
+    font-size: 20px;
+
 }
 
 .menu2>table
