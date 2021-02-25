@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*
+{
+  margin: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h2
+{
+  padding-bottom:1.5em;
+}
+
+body
+{
+  overflow-x: hidden;
+}
+.header
+{
+  height:50px;
+  width: 100%;
+  background-image: url('img/top.png');
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.blue
+{
+  height: 300px;
+  width: 100%;
+  background-color: #0134E6;
+}
+
+/* glow text from code pen https://codepen.io/AllThingsSmitty/pen/VzXrgY */
+.glowy_text
+{
+  text-align: center;
+  padding-top: 5%;
+  font-size: 80px;
+  opacity: 1;
+  /* text-shadow:
+    0 0 100px #fff,
+    0 0 60px #fff,
+    0 0 60px #fff,
+    0 0 80px #0ff; */
+
+  background: linear-gradient(to right, gold 35%, red 70%);
+  text-shadow: 0 0 50px #fff,
+   0 0 200px #fff,
+    0 0 200px #fff;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.beta
+{
+  height:auto;
+  width:70px;
+  padding: 0.3%;
+margin-top:  25px;
+position: absolute;
+  margin-left: 65%;
+  float: left;
+  background-color: gold;
+  color: black;
+  font-weight: bolder;
+  font-size: 2em;
+}
+.menubar
+{
+  margin-left: 32%;
+  width: 36%;
+  height: 2.4em;
+  background: linear-gradient( gold 10%, orange 100%);
+  box-shadow: 0px 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.menubar>table
+{
+  padding-top:1%;
+  line-height: 1.2em;
+  width: auto;
+  font-size:1.2em;
+  padding-left:3%;
+}
+
+td{
+  border-right: 2px solid black;
+
+}
+td:hover{
+  color:white;
+  transition: color 2s;
+  cursor: pointer;
+}
+.small-blue
+{
+  height:8px;
+  width: 100%;
+  background-color: #00b7f1;
+}
+
+.rssicon
+{
+  width: 200px;
+  height:200px;
+  position: absolute;
+  margin-left: 74%;
+  background-size: contain;
+  margin-top: -10%;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Generic_Feed-icon.svg/384px-Generic_Feed-icon.svg.png');
+}
+.sidebar
+{
+  background-color: gold;
+  height: 500px;
+  width: 250px;
+  color: green;
+  margin-top: 1%;
+  margin-left: 80%;
+
+}
+
+.speechbubble
+{
+  width:50%;
+  position: absolute;
+  height:250px;
+  /* float: left; */
+  font-weight: bold;
+  color: black;
+  margin-left: 2%;
+  margin-top: 2%;
+  text-align: center;
+  font-size: 2em;
+  background-color: pink;
+  border-radius: 50% 40% 40% 30%;
+}
+
+.circle
+{
+  position: absolute;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 50px;
+  margin-top: 8%;
+  margin-left: 25%;
+  box-shadow:  0 0 10px #fff, 0 0 50px #fff,
+   0 0 20px #fff,
+    0 0 30px #fff;
+  width: 50px;
+  border:1px solid rgba(255,255,255,0.5);
+}
+.circle2
+{
+  margin-top: 2%;
+  width: 80px;
+  height: 80px;
+  background-color: #eee;
+  margin-left: 15.5%;
+  box-shadow:  0 0 10px #fff, 0 0 50px #fff,
+   0 0 40px #fff,
+    0 0 5px #fff,
+    0 0 40px #fff;
+}
+.circle3
+{
+  margin-top: 6%;
+  background-color: transparent;
+  margin-left: 22%;
+  border-width: 2px;
+  opacity: 0.6;
+  box-shadow:  0 0 10px #fff, 0 0 50px #fff,
+   0 0 40px #fff,
+    0 0 5px #fff;
+}
+
+.triangle
+{
+  width: 0;
+ height: 0;
+ position: absolute;
+ /* margin-top: %; */
+ margin-left: 14%;
+ border-top: 80px solid pink;
+ border-right: 100px solid transparent;
+}
+.main-text{
+  width: 98%;
+  height:auto;
+  padding: 2%;
+  /* position: absolute; */
+  float: left;
+  margin-top: -14%;
+  /* background-color: #EDEDED; */
+}
+
+.small-box
+{
+  margin-top: 1%;
+  background-color: white;
+  border: 5px solid #f1f1f1;
+  width: 240px;
+  height: 150px;
+  margin-left: 80%;
+  background-image: url('img/family.jpg');
+  background-position: center right;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.fig
+{
+  background-image: url('img/mark.png');
+  height: 200px;
+  width: 200px;
+  float: left;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.text1
+{
+  width: 50%;
+  height:200px;
+  margin-left:2%;
+  float: left;
+  /* background-color: black; */
+}
+
+.text2
+{
+  margin-top: 4%;
+  width: 40%;
+
+  /* float:none; */
+}
+.container{
+  width: auto;
+  height: auto;
+}
+.fig2
+{
+  background-image: url('img/tom.png');
+  margin-top: -179px;
+  margin-left: 120%;
+
+}
+
+.fig3
+{
+
+  background-image: url('img/quote.png');
+  margin-top: 5%;
+  margin-left: 2%;
+}
+
+.sidebar>p
+{
+  padding-top:20%;
+  font-size: 1.2em;
+  text-align: center;
+
+}
+.sidebar>p:hover
+{
+    opacity: 0.6;
+    color: blue;
+    transition-duration: 0.8s;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+.sidebar>p:nth-last-child(1)
+{
+  color: green;
+  text-decoration: underline;
+}
+
+.menu2
+{
+  margin-top: 2%;
+  height: 50px;
+  background-image: url('img/top.png');
+}
+
+.text1:p
+{
+    font-family: Calibri;
+    line-height: 20px;
+    font-size: 20px;
+}
+
+.annoyinggif
+{
+  height:200px;
+  width:300px;
+  background-image: url('img/giphy.gif');
+  background-size: contain;
+  position: absolute;
+  margin-left: 76.8%;
+  margin-top: 10%;
+  opacity: 0.7;
+}
+.text3
+{
+  margin-top: 5%;
+  padding-bottom: 2%;
+}
+.menu2>table
+{
+  font-size: 1.5em;
+}
