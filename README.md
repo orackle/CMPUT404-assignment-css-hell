@@ -38,7 +38,7 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-The HTML/CSS files in this repo is licensed by Debangana Ghosh under the Creative Commons Attribution-NoDerivs 2.5 Canada License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/2.5/ca/.
+The HTML files (not including Project Gutenberg files) and the CSS files in this repo is licensed by Debangana Ghosh under the Creative Commons Attribution-NoDerivs 2.5 Canada License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/2.5/ca/.
 
 ### Project Gutenberg license (normative)
 > Creating the works from print editions not protected by U.S. copyright law means that no one owns a United States copyright in these works, so the Foundation (and you!) can copy and distribute it in the United States without permission and without paying copyright royalties. Special rules, set forth in the General Terms of Use part of this license, apply to copying and distributing Project Gutenberg-tm electronic works to protect the PROJECT GUTENBERG-tm concept and trademark. Project Gutenberg is a registered trademark, and may not be used if you charge for the eBooks, unless you receive specific permission. If you do not charge anything for copies of this eBook, complying with the rules is very easy. You may use this eBook for nearly any purpose such as creation of derivative works, reports, performances and research. They may be modified and printed and given away–you may do practically ANYTHING in the United States with eBooks not protected by U.S. copyright law. Redistribution is subject to the trademark license, especially commercial redistribution.
