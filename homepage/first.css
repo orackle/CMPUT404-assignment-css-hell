@@ -159,6 +159,7 @@ td:hover{
   padding-top:20%;
   font-size: 1.2em;
   text-align: center;
+  color: blue;
 
 }
 .sidebar>p:hover
@@ -172,7 +173,6 @@ td:hover{
 
 .sidebar>p:nth-last-child(1)
 {
-  color: green;
   text-decoration: underline;
 }
 
